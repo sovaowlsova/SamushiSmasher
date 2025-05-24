@@ -1,13 +1,3 @@
-/*
-I have decided to put the source code in .jar since I don't really
-have anything important to hide, and it might be interesting
-for someone to read without opening a decompiler.
-May God forgive me for this awful mess of a game. Sorry if you see this, Erik.
-I feel terrible for drawing BingHurtGif, he looks so sad I want to cry too.
-Pretty good though considering this gif should make player feel bad.
-Also, I am tired from making each frame by hand.
-Imagine if java had a good gif player...
- */
 package SamushiGame;
 import java.awt.event.*;
 import java.io.FileInputStream;
