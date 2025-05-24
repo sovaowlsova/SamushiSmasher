@@ -25,11 +25,6 @@ public class Gif {
             }
             i++;
         }
-        /*int numOfFrames = new File(getClass().getClassLoader().getResource(gifFolder).getFile()).list().length;
-        for (int i = 0; i < numOfFrames; i++) {
-           Icon ico = new ImageIcon(getClass().getClassLoader().getResource(gifFolder + "/Frame" + String.valueOf(i) + "." + fileExtension));
-           frames.add(ico);
-        }*/
     }
 }
 
@@ -60,7 +55,6 @@ class GifThread extends Thread {
                 label.setIcon(frame);
             } catch (InterruptedException e) {
                 System.out.println("Gif thread is somehow interrupted");
-                //System.out.println("You should kill yourself now!");
                 throw new RuntimeException(e);
             }
         }
